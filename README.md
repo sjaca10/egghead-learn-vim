@@ -9,6 +9,7 @@ Egghead course to learn to use vim text editor.
 `:h` to move left a file
 `:w` to move right word by word a file
 `:b` to move left word by word a file 
+`:w` or `:write` to save a file, if the file is a new file then it's necessasry supply a name to the command
 
 Modes:
 - Command mode: press `shift + :` here we can issue any commands we want to the editor
