@@ -25,7 +25,7 @@ Egghead course to learn to use vim text editor.
 `d5w` delete five words
 `c3j` cut 3 lines down and put into insert mode
 
-### Combining Vim commands
+### Combining commands
 The basic rule to combine commands into Vim it's the order:
 - Action
 - Location
@@ -36,3 +36,16 @@ The basic rule to combine commands into Vim it's the order:
 `cit` copy content and be put right into insert modei
 `ci{` copy content inside curly brackets `{ }`
 `ci"` copy content inside quote marks `" "`
+
+### Copy and Pastei
+Note: the copied text does not get added to the system clipboard
+
+1. `v` to enter visual mode and select text
+2. `y` to copy the selected text
+3. `p` to paste the copied text
+
+1. `dd` to delete the current line
+2. `p` paste the deleted text
+
+1. `dw` delete one word
+2. `p` paste the deleted word
