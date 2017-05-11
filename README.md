@@ -53,6 +53,7 @@ Note: the copied text does not get added to the system clipboard
 
 ### Configure Vim
 To show all available configurations `:help option-list`
+If you want define permanently this options, you must use the ~./.vimrc file
 
 `:syntax on` activate the syntax highligh
 `:syntax off` deactivate the syntax highligh
