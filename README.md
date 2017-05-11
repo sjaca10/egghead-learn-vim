@@ -24,6 +24,7 @@ Egghead course to learn to use vim text editor.
 `cw` delete the current word and enter to insert mode
 `d5w` delete five words
 `c3j` cut 3 lines down and put into insert mode
+`o` inset new line and put into insert mode
 
 ### Combining commands
 The basic rule to combine commands into Vim it's the order:
@@ -49,3 +50,15 @@ Note: the copied text does not get added to the system clipboard
 
 1. `dw` delete one word
 2. `p` paste the deleted word
+
+### Configure Vim
+To show all available configurations `:help option-list`
+
+`:syntax on` activate the syntax highligh
+`:syntax off` deactivate the syntax highligh
+`:set number` show numbers
+`:set nonumber` hide numbers
+`:set relativenumber` show relative numbers
+`:set norelativenumber` hide relative numbers
+`:set number relativenumber` show numbers and relative numbers
+
